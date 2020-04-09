@@ -1,148 +1,161 @@
-*{
-
-margin:0;
-padding:0;
-
-}
 body{
-background-color: rgb(231, 206, 255);
-font-family: 'Libre Baskerville', serif;
-
+margin: 0;
+padding: 0;
+font-family: 'Gotu', sans-serif;
 }
-.container{
-    max-width: 1000;
-    background-color: white;
-    margin: 0 auto;
-    padding: 10px;
-
-}header{
-
-
-
-
+.header{
+background-color:#3E5C9A;
+overflow: hidden;
+padding: 2%;
 }
-.profile-image{
-width: 100px;
-height: 120px;
-border:3px solid white;
-border-radius: 50%;
-float: left;
-}
-.header-bio{
-float: left;
-padding: 30px;
-}
- h2 h3 h4 h5 h6{
-color: whitesmoke;
-
-
- }
- .header-contact{
-     float: right;
-     padding: 15px;
- }
- .header-contact a{
-     text-decoration: none;
-     color:black;
-     font-weight:bold;
- }
- .header-contact a:hover{
-text-decoration:underline;
-color:tomato;
-
- }
- .div-clear{
-clear: both;
- }
- hr{
-border:solid black 3px;
-width:100%;
-margin: 20px auto;
- }
- #personal-section{
-
-
- }
- .content{
-
-
- }
- .left-div{
-width: 30%;
-float: left;
- }
- .right-div{
+.contaier{
 width: 70%;
+margin: auto;
+}.logo{
+width: 25%;
 float: left;
+}
+.logo img{
+    width: 160px;
+    margin-top: 10%;
+}
+.login{
+    width: 70%;
+float: left;
+color: white;
+}.login form{
+float: right;
 
- }.common-hr{
- border:solid black 2px;
- border-bottom:none;
- width:100%;
-margin:30px auto;
- }
+}.login label,
+.LOG in input{
+display: block;
 
- .edu-template-left{
-float:left;
-width:45%;
- }
- .edu-template-right{
-float:right;
-width:45%;
+}.login .email,
+.login .password,
+.login .LOG in{
+    float: left;
+    margin-right: 10px;
+}
+.login label{
+margin-bottom: 5px;
+font-size: 13px;
+}
+.login input[type="text"]
+.login input[type="paswsword"]{
 
-     }
-     .bottom-container{
-  background-color: black;
-  text-align: center;
+    border: 1px solid black;
+    font-size: 12px;
+    font-weight: 300;
+    padding:2px 5px;
+}.login .password a{
+text-decoration: none;
+color: white;
+font-size: 14px;
+}.login .password a:hover{
+text-decoration: underline;
+
+}
+.login input[type="submit"]{
+background-color:#4267b2;
+color: white;
+padding:2px 6px ;
+
+}
+.signup{
+padding: 22px 0;
+
+}
+.signup::after{
+    content: '';
+    clear: both;
+    display:block ;
+
+
+}
+
+.left{
+width: 55%;
+float: left;
+}
+.left p{  
+    font-size: 20px;
+    font: weight 600;
      
 }
-
-     .bottom-container a{
-     color: white;
-     text-decoration: none;
-     margin: 20px;
-
-
-     }
-     .bottom-container p{
-        color: white;
-      
-        margin-top: 20px;
-   
-   
-        }
-
-        #personal-section{
+    
+.left img{
+    width: 80%;
+    margin-left:auto;
+}
+    
 
 
-        }
-        .content{
-       
-       
-        }
-        .left-div{
-       width: 30%;
-       float: left;
-        }
-        .right-div{
-       width: 70%;
-       float: left;
-       
-        }.common-hr{
-        border:solid black 2px;
-        border-bottom:none;
-        width:100%;
-       margin:20s px auto;
-        }
-       
-        .edu-template-left{
-       float:left;
-       width:45%;
-        }
-        .edu-template-right{
-       float:right;
-       width:45%;
-       
-            }
+.right h2{
+font-size: 33px;
+color:black;
+margin: 0;
+}
+.right h4{
+font-size:15px;
+color: black;
+font: weight 400;
+margin-top: 5px;
+margin-bottom: 10px;
+
+}
+.right{
+    width: 45%;
+    float: left;
+}
+.gender{
+    float: left;
+    
+}
+.signup{
+    background-color:rgb(247, 240, 240);
+}
+
+.footer-area{
+    padding:30px 0 ;
+}.footer-area ul{
+    margin: 0;
+    padding: 0%;
+
+}
+.footer-area ul li{
+display: inline;
+
+}
+.footer-area ul li a{
+    text-decoration: none;
+    color: #385898; 
+
+
+}
+
+.footer-area .top ul li{
+    margin-right: 6px;
+}
+.footer-area .middle ul li{
+    margin-right: 10px;
+}
+
+.footer-area{
+    margin-top: 20px;
+}
+
+
+.footer-area{
+    margin-last: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
